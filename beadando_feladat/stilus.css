@@ -1,0 +1,46 @@
+header {
+    padding: 1em;
+    color: black;
+    background-color: rgb(214, 171, 115);
+    text-decoration: underline;
+}
+footer {
+    color: black;
+    padding: 2em;
+}
+h1.header {
+    padding: 0;
+    margin: 0;
+}
+aside {
+    float: left;
+    width: 15em;
+    font-size: large;
+    margin: 1em;
+}
+section {
+    margin: 10em;
+    font-size: 20px;
+}
+ul {
+    float: left;
+    width: 40em;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    display:block;
+    width: 8em;
+    color: black;
+    background-color: bisque;
+    padding: 10em,10em;
+    border-right: 0em solid white;
+}
+a.active {
+    border-bottom: 3px solid rgb(255, 131, 59);
+}
+a.hover{ background-color: beige;}
+li {
+    display:inline;
+}
