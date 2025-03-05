@@ -1,4 +1,4 @@
-header {
+header {              
     padding: 1em;
     color: black;
     background-color: rgb(214, 171, 115);
@@ -13,14 +13,14 @@ h1.header {
     margin: 0;
 }
 aside {
-    float: left;
-    width: 15em;
+    display:inline;
+    width: 5px;
     font-size: large;
-    margin: 1em;
+    margin: 5px;
 }
 section {
     float: left;
-    margin: 1em;
+    margin: 0px, 5px;
     font-size: 20px;
 }
 ul {
@@ -31,32 +31,25 @@ ul {
     list-style-type: none;
 }
 a {
-    display:block;
-    width: 8em;
+    float:left;
+    width: 125px;
     color: black;
+    font-size: larger;
     background-color: bisque;
-    padding: 10em,10em;
-    border-right: 0em solid white;
+    padding: 20em,20em;
+    border-right: 0em white;
 }
 a.active {
-    border-bottom: 3px solid rgb(255, 131, 59);
+    border-bottom: 3px solid rgb(248, 93, 127);
 }
 a.hover{ background-color: beige;}
-li {
-    display:inline;
-}
-style {
-    
-    display: block;
-    margin-left: 1em;
-    margin-right: auto;
-    width: 0.1em;
-}
-style.image{
-    height: 5em;
+a.style{
+    background-color: none;
 
 }
-p {
+style{
     
-
+}
+style.color{ 
+    background-color:rgb(255, 235, 198);
 }
