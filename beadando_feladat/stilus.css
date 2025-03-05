@@ -19,7 +19,8 @@ aside {
     margin: 1em;
 }
 section {
-    margin: 10em;
+    float: left;
+    margin: 1em;
     font-size: 20px;
 }
 ul {
@@ -43,4 +44,19 @@ a.active {
 a.hover{ background-color: beige;}
 li {
     display:inline;
+}
+style {
+    
+    display: block;
+    margin-left: 1em;
+    margin-right: auto;
+    width: 0.1em;
+}
+style.image{
+    height: 5em;
+
+}
+p {
+    
+
 }
