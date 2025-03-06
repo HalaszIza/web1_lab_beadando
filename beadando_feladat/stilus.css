@@ -43,13 +43,6 @@ a.active {
     border-bottom: 3px solid rgb(248, 93, 127);
 }
 a.hover{ background-color: beige;}
-a.style{
-    background-color: none;
-
-}
-style{
-    
-}
-style.color{ 
-    background-color:rgb(255, 235, 198);
+body.style{
+    background-color: blanchedalmond;
 }
