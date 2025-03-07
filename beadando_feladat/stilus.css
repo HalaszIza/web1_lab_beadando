@@ -48,6 +48,7 @@ a.link {
     background-color: rgba(255, 237, 178, 0.877);
     color: darkred;
     font-style: oblique;
+    float: inherit;
 }
 a.active {
     border-bottom: 3px solid rgb(248, 93, 127);
@@ -75,4 +76,9 @@ img.float {
     width: 100px;
     float: right;
     border: 3px solid gray;
+}
+p.st{
+    text-decoration: underline;
+    font: 20px;
+    font-weight: bold;
 }
