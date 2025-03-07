@@ -57,13 +57,14 @@ a.hover{ background-color: beige;}
 body.color{
     background-color:rgba(255, 237, 178, 0.877);
     font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
 }
 li.szam{
     font-size: large;
     font-weight: bold;
 }
 img.floating-im {
-    width: 250px;
+    width: 300px;
     float: right;
     border: 3px solid gray;
 }
@@ -89,11 +90,6 @@ p.st{
     border: dotted 0.5px;
     margin: 3px;
     width: 30%;
-}
-
-span
-{
-    font-weight: bold;
 }
 
 .proba
