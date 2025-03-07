@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="stilus.css">
-    <title>Document</title>
-</head>
-<body>
+    <title> Az év tortája választása </title>
+    <link rel="stylesheet" href="style_form.css">
+  </head>
+  <body>
+      <h2>Év tortája válaszás</h2>
+
+      <!--Teljes Név-->
+      <div class="form-group fullname">
+        <label for="fullname">Teljes név</label>
+        <input type="text" id="fullname"  minlength="10" placeholder="Írja be a teljes nevét" required>
+      </div>
+
+      <!--Email-->
+      <div class="form-group email">
+        <label for="email">Email cím</label>
+        <input type="text" id="email" minlength="10" placeholder="Írja be az email címét" required>
+      </div>
     
-</body>
+      <!--Nem-->
+      <div class="form-group gender">
+        <label for="gender">Neme</label>
+        <select id="gender" required>
+          <option value="" selected disabled>Válassza ki a nemét</option>
+          <option value="Male">Férfi</option>
+          <option value="Female">Nő</option>
+          <option value="Other">Más</option>
+        </select>
+      </div>
+
+      <!--Torta-->
+      <div class="form-group cake">
+        <label for="gender">Az év tortája</label>
+        <select id="gender" required>
+          <option value="" selected disabled>Válassza ki a kedvencét</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+
+      <!--Üzenet-->
+      <div class="form-group message">
+        <label for="message">Üzenet</label>
+        <textarea name = "Message" placeholder="Mondja el nekünk miért ezt választotta" required></textarea> 
+      </div>
+
+      <!--Gomb-->
+      <div class="form-group submit-btn">
+        <input type="submit" value="Küldés">
+      </div>
+    </form>
+  </body>
 </html>
