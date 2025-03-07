@@ -82,3 +82,28 @@ p.st{
     font: 20px;
     font-weight: bold;
 }
+.kiemeles
+{
+    background-color: rgb(252, 244, 217);
+    padding: 10px;
+    border: dotted 0.5px;
+    margin: 3px;
+    width: 30%;
+}
+
+span
+{
+    font-weight: bold;
+}
+
+.proba
+{
+    background-color: rgb(245, 238, 199);
+        width: 180px;
+        height: 200px;
+        display: inline-block;
+        margin: 5px;
+        border: solid 1px;
+        padding: 5px;
+        box-sizing: border-box;
+}
