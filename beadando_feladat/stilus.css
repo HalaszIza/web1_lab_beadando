@@ -78,6 +78,10 @@ img.float {
     float: right;
     border: 3px solid gray;
 }
+img.tortak
+{
+    width: 250px;
+}
 p.st{
     text-decoration: underline;
     font: 20px;
